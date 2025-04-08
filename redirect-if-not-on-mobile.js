@@ -33,7 +33,7 @@
           debugDiv.style.backgroundColor = 'green';
           debugDiv.style.color = 'white';
           debugDiv.style.zIndex = '9999';
-          debugDiv.innerHTML = 'Mobile device detected - staying on site';
+          debugDiv.innerHTML = 'Siteye giriş başarılı';
           document.body.appendChild(debugDiv);
           setTimeout(function() { debugDiv.style.display = 'none'; }, 5000);
         });
