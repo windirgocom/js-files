@@ -1,0 +1,30 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Set background color
+    document.body.style.backgroundColor = "#fef7e4";
+    
+    // Create loading spinner
+    function createLoadingSpinner() {
+        // Create container for spinner and image
+        var container = document.createElement("div");
+        container.className = "container";
+        
+        // Create spinner element
+        var spinner = document.createElement("div");
+        spinner.className = "spinner";
+        
+        // Create image element
+        var image = document.createElement("img");
+        image.src = "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/w1600740-il92no/assets/50i9suzc3leg/splash.gif";
+        image.style.width = "100px"; // Adjust image size as needed
+        
+        // Append elements to the container
+        container.appendChild(spinner);
+        container.appendChild(image);
+        
+        // Append container to the body
+        document.body.appendChild(container);
+    }
+    
+    // Call the function to create loading spinner
+    createLoadingSpinner();
+});
