@@ -11,7 +11,7 @@
                 
                 // Create image element
                 var image = document.createElement("img");
-                image.src = "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/w1600740-il92no/assets/50i9suzc3leg/splash.gif";
+                image.src = "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/windir-go-pazaryeri-mxp4pr/assets/0w7x9j1t4ifv/windirim_logo_bej.png";
                 image.style.width = "350px"; // Adjust image size as needed  
                 
                 // Append elements to the container
