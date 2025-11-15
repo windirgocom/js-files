@@ -6,8 +6,8 @@
                 container.className = "container";
                 
                 // Create spinner element
-                var spinner = document.createElement("div");
-                spinner.className = "spinner";
+              //  var spinner = document.createElement("div");
+             //   spinner.className = "spinner";
                 
                 // Create image element
                 var image = document.createElement("img");
@@ -15,7 +15,7 @@
                 image.style.width = "350px"; // Adjust image size as needed  
                 
                 // Append elements to the container
-                container.appendChild(spinner);
+          //      container.appendChild(spinner);
                 container.appendChild(image);
                 
                 // Append container to the body
