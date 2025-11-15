@@ -12,7 +12,7 @@
                 // Create image element
                 var image = document.createElement("img");
                 image.src = "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/w1600740-il92no/assets/50i9suzc3leg/splash.gif";
-                image.style.width = "500px"; // Adjust image size as needed  
+                image.style.width = "350px"; // Adjust image size as needed  
                 
                 // Append elements to the container
                 container.appendChild(spinner);
